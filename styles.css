@@ -340,5 +340,8 @@ footer.site ul a:hover{color:var(--amber)}
   width:100%;min-width:400px;max-width:600px;height:790px;
 }
 @media (max-width:520px){
-  .formwrap{padding:10px;border-radius:7px}
+  /* reclaim side padding and lower the vendor minimum so the
+     reCAPTCHA widget still fits without the page scrolling sideways */
+  .formwrap{padding:0;border-radius:7px}
+  .formwrap iframe{min-width:330px}
 }
