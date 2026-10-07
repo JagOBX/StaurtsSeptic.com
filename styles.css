@@ -329,3 +329,16 @@ footer.site ul a:hover{color:var(--amber)}
   section{padding:56px 0}
   .hero .wrap{padding-top:56px;padding-bottom:56px}
 }
+
+/* ---- embedded service request form ---- */
+.formwrap{
+  background:#fff;border:1px solid var(--line);border-radius:9px;
+  padding:16px;overflow-x:auto;-webkit-overflow-scrolling:touch;
+}
+.formwrap iframe{
+  display:block;margin:0 auto;border:0;
+  width:100%;min-width:400px;max-width:600px;height:790px;
+}
+@media (max-width:520px){
+  .formwrap{padding:10px;border-radius:7px}
+}
